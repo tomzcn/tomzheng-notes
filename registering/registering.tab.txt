@@ -214,3 +214,5 @@ url
     http://mdvideo.gshll.com/
   网页绘图js包	
     https://idraw.js.org/
+  btop+
+    linux的top命令的替代。能显示机器的各种资源占用。
