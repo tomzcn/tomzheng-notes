@@ -8,9 +8,11 @@ github
     频繁不可访问
 discord
     网页版也不能访问了
-微软的onedrive、officeonline
+微软的officeonline
     正常，较慢
+onenote、onedrive
+    经常卡
 苹果的office、icloud
-    正常，较慢
+    正常，较慢，因为搬到国内了。
 quip
     正常
