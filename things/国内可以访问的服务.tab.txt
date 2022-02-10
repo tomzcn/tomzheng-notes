@@ -1,0 +1,10 @@
+zoom
+    只能加入会议
+roamresearch
+    需要自己解决注册和登录
+slack
+    只是有些卡
+github
+    频繁不可访问
+discord
+    网页版也不能访问了
