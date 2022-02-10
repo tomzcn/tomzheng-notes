@@ -8,3 +8,9 @@ github
     频繁不可访问
 discord
     网页版也不能访问了
+微软的onedrive、officeonline
+    正常，较慢
+苹果的office、icloud
+    正常，较慢
+quip
+    正常
