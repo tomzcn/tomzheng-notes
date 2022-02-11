@@ -32,6 +32,8 @@ fact
         
     
 url
+  https://supabase.com/
+    Firebase Alternative
   HDMI 2.1 名称本身毫无意义
     https://www.cnbeta.com/articles/tech/1215181.htm
   一起听歌等，美国的日历社交app
