@@ -235,6 +235,8 @@ url
     https://www.inkandswitch.com/local-first/
   本地优先无服务器项目
     https://github.com/local-first-web
+  无冲突协作的一个实现
+    https://github.com/cedrickchee/automerge
     
   
 
