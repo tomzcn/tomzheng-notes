@@ -237,6 +237,8 @@ url
     https://github.com/local-first-web
   无冲突协作的一个实现
     https://github.com/cedrickchee/automerge
+  各种情况下防止睡眠的mac应用
+    amphetamine
     
   
 
