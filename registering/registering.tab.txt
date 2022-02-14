@@ -231,6 +231,10 @@ url
     gdevelop
   微众银行估值2200亿元
     https://www.sohu.com/a/510264867_115565?scm=1004.759737839519989760.0.0.0&spm=smpc.home.it-news11.3.164006751714377WZrBj&_f=index_itnews_0_2
+  本地优先的无服务器的网络协作概述
+    https://www.inkandswitch.com/local-first/
+  本地优先无服务器项目
+    https://github.com/local-first-web
     
   
 
