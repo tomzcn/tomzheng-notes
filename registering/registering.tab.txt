@@ -243,6 +243,9 @@ url
     amphetamine
   精确做饭
     https://github.com/Anduin2017/HowToCook
+  开源项目以及他们的替代
+    https://www.libhunt.com/
+  
     
 
   
