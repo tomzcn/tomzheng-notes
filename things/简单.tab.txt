@@ -4,11 +4,15 @@ c编译器
 编程语言
     rebol
     python
+编程语言格式简单
+    lisp
 编辑器
     ed
 去中心
-    decentral-http
+    decentral-http，我自己的项目
 服务器
+    caddy
 浏览器
+    w3m
 内容发布
     TiddlyWiki
