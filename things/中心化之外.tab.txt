@@ -1,0 +1,16 @@
+互联
+    web
+多中心
+    电子邮件服务器
+    jabber聊天服务器
+    irc服务器
+    matrix聊天
+    mastodon微博
+去中心
+    新闻组
+    bittorrent
+    emule
+    区块链
+    zeronet
+    tor
+    
