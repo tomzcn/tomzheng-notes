@@ -245,6 +245,9 @@ url
     https://github.com/Anduin2017/HowToCook
   开源项目以及他们的替代
     https://www.libhunt.com/
+  9个免费cad软件
+    https://listoffreeware.com/best-free-open-source-cad-software-windows/
+    
   
     
 
