@@ -1,0 +1,52 @@
+* knative是serveless https://www.tuicool.com/articles/2MrQ73Q
+* mojo chrome的通讯机制。类似photobuf
+* 只有我能连我的服务器 https://www.tuicool.com/articles/qQfm636
+* 动画看懂卷积神经 https://www.tuicool.com/articles/qeQbI3i
+* 互动星球小程序
+* python2和3的结合tauthon  https://www.tuicool.com/articles/hit/ZjYJnmV
+* 蚂蚁区块链，开放联盟链，面向开发者和中小企业开放。
+* 一个基于调查的编程语言排行 https://www.slashdata.co/
+* 阿里云会议
+* getnote.com 一个命令行记笔记的软件。sqlite后端。
+* 汽车占社会零售总额的10%
+* Decentraland是基于以太坊构建的虚拟世界
+* 深度学习已死，可微分万岁。
+* 老龄时代 https://www.tuicool.com/articles/F3ieyuU
+* 问藏书房 造字工坊团队私人图书免费借阅。
+* module federation 是webpack5的一个功能。能够几个应用共享代码，就像dll一样。
+* rome yarn作者写的babel的替代品。
+* 开源云开发 cloudwright.io 
+* django实现webssh https://www.tuicool.com/articles/Abequa6
+* e签宝电子签名 https://www.tuicool.com/articles/RFnUjeU
+* 云开发服务 https://www.tuicool.com/articles/6VVn6rB
+* vectordraw 转换cad文件，xml文件格式，程序操作cad的库
+* web打包格式，web，bundle https://www.tuicool.com/articles/JRbIFnr
+* DAG介绍 https://www.tuicool.com/articles/MZzmQrI
+* 今日头条的一横一竖 https://www.tuicool.com/articles/3maMzmq
+* 基于浏览器端的代码编译、打包、构建、运行 的功能，而这一切在我们原来的开发体系里是只有基于  本地IDE+Node本地构建、本地服务+浏览器访问预览 才有的能力。此类产品的代表是CodeSandbox，codepen，StackBlitz，JSFiddle等。 
+* 90行代码实现react https://www.tuicool.com/articles/qUzeUz
+* github年度报告 https://www.tuicool.com/articles/Zzu2Ere
+* c9开源 github.com/c9/core
+* 代码补全 https://www.tuicool.com/articles/fQjeemV
+* 对象和函数正交 https://www.tuicool.com/articles/eQra2qb
+* pandas高级功能 https://www.tuicool.com/articles/iYjAvuU
+* 加密币钱包 https://www.tuicool.com/articles/eIJnQzY
+* 排行榜 https://www.tuicool.com/articles/iyQv6zQ
+* 排行榜 https://redmonk.com/sogrady/2019/07/18/language-rankings-6-19/
+* 排行榜 https://spectrum.ieee.org/computing/software/the-top-programming-languages-2019
+* 记录回放dom操作过程 https://www.tuicool.com/articles/RzAJje6
+* 各种DAO介绍 https://www.tuicool.com/articles/2mIrM3f
+* token session 实现 https://www.tuicool.com/articles/au6rQje
+* x3d网页三维标准 https://www.tuicool.com/articles/FFjEjyv
+* pdf重排为手机版 https://www.willus.com/k2pdfopt/
+* 深度学习互动教程 http://www.d2l.ai/index.html
+* 开发者免费资源 https://free-for.dev/#/
+* 跨移动平台的java图形，基于graal https://www.tuicool.com/articles/IbQnimb
+* 中国知识图谱网站现状 https://www.tuicool.com/articles/QVBJbay
+* 命令行下的mysql、json、git、file https://www.tuicool.com/articles/VjmUBnq
+* 青年人的城市选择 https://www.tuicool.com/articles/UnY7bqE
+* 收费下载的工程资料 https://ziliao.co188.com/d62302533.html
+* poetry，另一个pipenv https://zhuanlan.zhihu.com/p/81025311
+* websocket详述 https://www.tuicool.com/articles/qAjqi2E
+* 老年经济 https://www.tuicool.com/articles/UZ7RVvq
+** 1.1
