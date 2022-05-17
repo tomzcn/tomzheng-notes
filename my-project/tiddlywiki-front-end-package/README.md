@@ -1,2 +1,2 @@
-Made tiddlywiki a front-end library
+Made tiddlywiki a front-end package
 
