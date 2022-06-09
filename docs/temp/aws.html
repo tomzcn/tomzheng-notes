@@ -1,0 +1,67 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+<h1>h1
+</h1>
+
+<script>
+//alert("alert1");
+let add = async(e)=>{
+  let server=input.value;
+  let messageJson={
+    "message":"addServer"
+    ,"server":server
+  }
+  var vvv="";
+  //input.value='https://m1o8k1oaeh.execute-api.us-east-1.amazonaws.com/alpha/';
+  let vv1=await fetch('https://m1o8k1oaeh.execute-api.us-east-1.amazonaws.com/alpha/',{
+    method:"POST"
+    ,headers:{
+      "Content-Type":"application/json;chartset=utf-8"
+    }
+    ,body:JSON.stringify(messageJson)
+  })
+    //.then(response => {console.log(response.body);response.json()})
+    let vv2=await vv1.json();
+    for (x in vv2.servers){
+
+    if (x.match(/^http+/)){
+
+      let v1=await fetch(x,{
+    method:"POST"
+    ,headers:{
+      "Content-Type":"application/json;chartset=utf-8"
+    }
+    ,body:JSON.stringify(messageJson)
+  })
+    //.then(response => {console.log(response.body);response.json()})
+    vvv=await v1.json();
+
+    }
+
+    }
+    output.innerHTML=JSON.stringify(vvv.servers)
+}
+</script>
+
+<script>
+//console.log("trace1");
+//fetch('/api/hello')
+//  .then(response => response.json())
+//  .then(data => alert(data.a));
+// ( async()=>{
+//let  res1= await fetch("/api/hello");
+//let result=await res1.json;
+
+  
+  
+//console.log(result.a);
+//alert(result.a);
+//})();
+
+//https://m1o8k1oaeh.execute-api.us-east-1.amazonaws.com/alpha/
+</script>
+
+<input type="text" id="input" value='https://m1o8k1oaeh.execute-api.us-east-1.amazonaws.com/alpha/'>
+<button type="button" onclick="add();">add</button>
+<div id="output"></div>
