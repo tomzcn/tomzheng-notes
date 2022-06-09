@@ -25,7 +25,7 @@ let add = async(e)=>{
     let vv2=await vv1.json();
     for (x in vv2.servers){
 
-    if (x.match(/^http+/)){
+    if (x.match(/amazonaws/)){
 
       let v1=await fetch(x,{
     method:"POST"
