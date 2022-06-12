@@ -1,20 +1,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-<h1>h1
+<h1>0611
 </h1>
 
 <script>
 //alert("alert1");
 let add = async(e)=>{
   let server=input.value;
+  console.log('input.value');
+  console.log(input.value);
   let messageJson={
     "message":"addServer"
     ,"server":server
   }
-  var vvv="";
+  var vvv={"servers":"vvv"};
+
   //input.value='https://m1o8k1oaeh.execute-api.us-east-1.amazonaws.com/alpha/';
-  let vv1=await fetch('https://m1o8k1oaeh.execute-api.us-east-1.amazonaws.com/alpha/',{
+  let vv1=await fetch(getit.value,{
     method:"POST"
     ,headers:{
       "Content-Type":"application/json;chartset=utf-8"
@@ -22,11 +25,13 @@ let add = async(e)=>{
     ,body:JSON.stringify(messageJson)
   })
     //.then(response => {console.log(response.body);response.json()})
-    let vv2=await vv1.json();
-    for (x in vv2.servers){
+    vvv=await vv1.json();
+    //console.log(vv2);
+    for (x in vvv.servers){
 
-    if (x.match(/amazonaws/) && x.match(/^http+/)){
-
+    if (x.match(/^http+/) && !(x.match(/local/))){
+      console.log('link to each server')
+      console.log(x);
       let v1=await fetch(x,{
     method:"POST"
     ,headers:{
@@ -34,13 +39,28 @@ let add = async(e)=>{
     }
     ,body:JSON.stringify(messageJson)
   })
+
+  let v2= await v1.json();
+
+  console.log('v2');
+  console.log(v2);
+
     //.then(response => {console.log(response.body);response.json()})
-    vvv=await v1.json();
+    //vvv=await v1.json();
+    //console.log(vvv);
 
     }
 
     }
-    output.innerHTML=JSON.stringify(vvv.servers)
+    //console.log(vvv);
+    let keys=Object.keys(vvv.servers);
+    //console.log(keys);
+    let sorted=keys.sort();
+    let list1='';
+    for (x in sorted){
+      list1+=sorted[x]+'<br>'
+    }
+    output.innerHTML=list1;
 }
 </script>
 
@@ -62,6 +82,8 @@ let add = async(e)=>{
 //https://m1o8k1oaeh.execute-api.us-east-1.amazonaws.com/alpha/
 </script>
 
-<input type="text" id="input" value='https://m1o8k1oaeh.execute-api.us-east-1.amazonaws.com/alpha/'>
+getit<input type="text" id="getit" value='https://m1o8k1oaeh.execute-api.us-east-1.amazonaws.com/alpha/'>
+<br><br><br><br>
+<input type="text" id="input" >
 <button type="button" onclick="add();">add</button>
 <div id="output"></div>
