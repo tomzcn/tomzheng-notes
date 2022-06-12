@@ -34,6 +34,8 @@ fact
 memo
   https://infinitewhiteboard.com/#-101.24/-1.075125460237841e+38/0
     我的位置
+  https://6rz7vt.sse.codesandbox.io/public/nolocal.html
+    看看这个域名会不会变
     
 url
   https://supabase.com/
