@@ -1,0 +1,40 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+<h1>0611
+</h1>
+
+<script>
+//alert("alert1");
+let add = async(e)=>{
+  var vvv={"servers":"vvv"};
+  var vvvv={"":1};
+
+  let vv1=await fetch(getit.value)
+    vvv=await vv1.json();
+    //console.log(vv2);
+    for (x in vvv.chatservers){
+      console.log('link to each server')
+      console.log(x);
+      let v1=await fetch(x)
+      let v2= await v1.json();
+      console.log('v2');
+      console.log(v2.chat);
+      Object.assign(vvvv,v2.chat);
+    }
+    //console.log(vvv);
+    let keys=Object.keys(vvvv);
+    //console.log(keys);
+    let sorted=keys.sort();
+    let list1='';
+    for (x in sorted){
+      list1+=sorted[x]+'<br>'
+    }
+    output.innerHTML=list1;
+}
+</script>
+
+getit<input type="text" id="getit" value='https://tomzcn.github.io/decentral-servers-name-broadcast-file/chatservers.json'>
+<br><br><br><br>
+<button type="button" onclick="add();">display</button>
+<div id="output"></div>
