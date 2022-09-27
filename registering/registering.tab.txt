@@ -253,6 +253,9 @@ url
     https://listoffreeware.com/best-free-open-source-cad-software-windows/
   20个chat组件
     https://onaircode.com/javascript-js-chat-box-examples/
+  微格式
+    http://microformats.org/about
+    
 
     
     
