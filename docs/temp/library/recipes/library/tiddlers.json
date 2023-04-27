@@ -9,6 +9,6 @@
         "list": "readme",
         "dependents": "",
         "type": "application/json",
-        "requires-reload": "no"
+        "requires-reload": "yes"
     }
 ]
